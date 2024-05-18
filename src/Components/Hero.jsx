@@ -7,7 +7,7 @@ const Hero = () => {
   // destructure hero Data
   const {pretitle, title, subtitle, btnText} = heroData
   return (
-    <section>
+    <section className='min-h-[980px' bg-hero bg-cover bg-right>
       <div className="container mx-auto">hero</div>
     </section>
   )

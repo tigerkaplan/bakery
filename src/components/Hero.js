@@ -29,7 +29,7 @@ const Hero = () => {
           {/* title */}
           <motion.h1
             variants={fadeIn("down", "tween", 0.3, 1.1)}
-            className="h1 mb-5"
+            className="h1 mb-5 text-[#F55304]"
           >
             {title}
           </motion.h1>

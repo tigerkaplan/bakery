@@ -33,7 +33,7 @@ module.exports = {
       },
       backgroundImage: {
         pattern: "url('assets/img/body-bg-pattern.png')",
-        hero: "url('assets/img/hero/bg.png')",
+        hero: "url('assets/img/hero/bg.jpg')",
         menu: "url('assets/img/menu/bg.png')",
         testimonial: "url('assets/img/testimonial/bg.png')",
         newsletter: "url('assets/img/newsletter/bg.png')",

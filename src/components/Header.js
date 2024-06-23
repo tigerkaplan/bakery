@@ -17,7 +17,7 @@ const headerVariants = {
   },
   show: {
     padding: "14px 0 14px 0",
-    background: "rgba(0,0,0,0.92)",
+    background: "#9a3412",
     transition: {
       type: "spring"
     }
@@ -101,7 +101,9 @@ const Header = () => {
             />
           </motion.div>
           {/* Logo*/}
-          <motion.div variants={fadeIn("down", "tween", 1.2, 1.4)}>
+          <motion.div variants={fadeIn("down", "tween", 1.2, 1.4)}
+          className="order-1 lg:order-none lg:ml-[11rem]"
+          >
             <a href="#">
               {/* if header  is active make logo 90x90 else 107 x 107 */}
               <img

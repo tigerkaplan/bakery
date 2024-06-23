@@ -58,31 +58,31 @@ export const aboutData = {
 export const menuData = {
   title: 'delicious flavour of autumn',
   subtitle: 'view all menu for tasty meal today',
-  modelImg: ModelWhiteImg,
+  modelImg: ModelBlackImg,
   btnText: 'view complete menu',
   menuItems: [
     {
       image: MenuImg1,
       name: 'Chocolate Cake',
-      price: '$7.99',
+      price: '£7.99',
       description: 'Class aptent taciti ciosqu litora torquent per',
     },
     {
       image: MenuImg2,
       name: 'Veggie Burger',
-      price: '$9.49',
+      price: '£9.49',
       description: 'Class aptent taciti ciosqu litora torquent per',
     },
     {
       image: MenuImg3,
       name: 'King Burger',
-      price: '$8.50',
+      price: '£8.50',
       description: 'Class aptent taciti ciosqu litora torquent per',
     },
     {
       image: MenuImg4,
       name: 'Mexican Burger',
-      price: '$9.99',
+      price: '£9.99',
       description: 'Class aptent taciti ciosqu litora torquent per',
     },
   ],

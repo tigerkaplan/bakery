@@ -1,0 +1,89 @@
+.explore-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.explore-menu h1 {
+  color: #262626;
+  font-weight: 500;
+}
+
+.explore-menu-text {
+  max-width: 60%;
+  columns: #808080;
+}
+.explore-menu-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  text-align: center;
+  margin: 20px 0px;
+  overflow-x: scroll;
+}
+.explore-menu-list::-webkit-scrollbar {
+  display: none;
+}
+
+.explore-menu-list-item img {
+  width: 6.5vm;
+  min-width: 80px;
+  cursor: pointer;
+  transition: 0.3;
+  border-radius: 50%;
+}
+
+.explore-menu-list-item p {
+  margin-top: 10px;
+  color: 747474;
+  font-size: max(1.4vw, 16px);
+  cursor: pointer;
+}
+
+.explore-menu hr{
+  margin: 10px 0px;
+  height: 2px;
+  background-color: #e2e2e2;
+  border: none;
+}
+
+
+.explore-menu-list-item .active {
+  border: 4px solid tomato;
+  padding:2px;
+}
+
+@media (max-width:1050px) {
+  .explore-menu-text {
+    max-width: 100%;
+    font-size: 14px;
+  }
+}
+
+.menu-section {
+  min-height: 780px;
+  position: relative;
+}
+
+.menu-background {
+  height: 780px;
+  background: url('path/to/your/menu-background.jpg') no-repeat center center/cover; /* Adjust according to your actual background settings */
+  position: absolute;
+  width: 100%;
+  max-width: 1800px;
+  z-index: 0;
+}
+
+.menu-text-container {
+  background-color: #fefcbf; /* equivalent to bg-yellow-200 */
+  position: relative;
+  z-index: 10;
+  top: 18rem; /* equivalent to top-72 */
+}
+
+@media (min-width: 1024px) {
+  .menu-text-container {
+    top: 13rem; /* equivalent to lg:top-52 */
+  }
+}

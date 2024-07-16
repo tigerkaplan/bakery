@@ -6,6 +6,7 @@ import {
   FaPinterestP,
   FaDiscord
 } from "react-icons/fa";
+
 // import images
 import AboutImg from "../src/assets/img/about/plate.png";
 import ModelWhiteImg from "../src/assets/img/model-white.png";
